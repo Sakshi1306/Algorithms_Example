@@ -29,7 +29,7 @@ ll Fibo(ll n)
         ll ans1=Fibo(x);
         ll ans2=Fibo(x-1);
         ll ans3=Fibo(x+1);
-        //cout<<ans1<<ans2<<ans3;
+        
         ll ans=ans1*(ans2+ans3);
         arr[n]=ans;
         return arr[n];
