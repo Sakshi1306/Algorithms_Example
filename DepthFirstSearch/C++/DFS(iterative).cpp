@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
 
-using namespace std;
-
+using namespace std
 vector<int> adj[1000];            //adjacency list of graph
-bool visited[1000]={false} ;               //array to keep track of visited nodes
+bool visited[1000]={false} ;               //array to keep track of visited 
 
 void dfs(int source)
 {
