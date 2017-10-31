@@ -27,5 +27,5 @@ int binarySearch(int low,int high,int key)
      }
 
    }
-   return -1;                //key not found
+   return -1;                //key 
  }
